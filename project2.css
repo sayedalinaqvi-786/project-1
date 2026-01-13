@@ -1,0 +1,88 @@
+
+ *{margin: 0;
+        padding:0;}
+        header{
+             height: 100px;
+             width:200 ;
+             background-color: black;
+             color: white;
+             text-align: center;
+             font-size: larger;
+              padding: 30px;
+        }
+        p{margin:10px}
+
+        nav {
+    background-color :aqua;
+    text-align: center;
+    padding: 10px;
+        }
+
+        nav a {
+    color: red;
+    margin: 15px;
+    text-decoration: none;
+    font-weight:bold;
+}
+main{
+    text-align: center;
+    margin: 10px;
+}
+h2{color:black}
+#skills{
+    text-align: center;
+    color:black;
+
+}
+.skill-box, .project-box {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.skill-box div, .card {
+    background-color:chocolate;
+    padding: 20px;
+    width: 150px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+h2{
+    text-align: center;
+    margin: 15px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: red dashed 2px;
+    cursor: pointer;
+    
+    
+}
+
+button:hover {
+    background: green;
+   
+}
+button:active{
+    background-color: blueviolet;
+}
+
+footer{
+    color: red;
+    text-align: center;
+}
